@@ -9,7 +9,7 @@ const Main=({quote})=>{
             quote ?
         
         <div>
-            {quote.quote}
+            {quote.author+":"+quote.quote}
 
 
 

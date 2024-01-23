@@ -13,14 +13,14 @@ function App() {
   return (
     
     <div className='app'>
-    <Header/>
-    <br></br>
-    <GetQuote setQuote={setQuote}/>
-    <br></br>
-    <Main quote={quote}/>
-    <Footer/>
+      <Header/>
+      {/* <br></br> */}
+      <GetQuote setQuote={setQuote}/>
+      {/* <br></br> */}
+      <Main quote={quote}/>
+      <Footer/>
         
-      </div>
+    </div>
       
    
   )
